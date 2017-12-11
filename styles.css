@@ -1,0 +1,73 @@
+/*colors*/
+/*
+#1B3C68
+#00B8C0
+#0074E4
+*/
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.child {
+  height: 250px;
+  border: 4px solid black;
+  margin: 4px;
+  flex: 1 1;
+}
+
+.child:nth-child(1) {
+  flex-basis: 400px;
+}
+
+.child:nth-child(2) {
+  flex-basis: 200px;
+}
+
+.child:nth-child(3) {
+  flex-basis: 200px;
+}
+
+.child:nth-child(4) {
+  flex-basis: 200px;
+}
+
+.child:nth-child(5) {
+  flex-basis: 200px;
+}
+
+.child:nth-child(6) {
+  flex-basis: 200px;
+}
+
+.child:nth-child(7) {
+  flex-basis: 400px;
+}
+
+.child:nth-child(8) {
+  flex-basis: 200px;
+}
+
+.child:nth-child(9) {
+  flex-basis: 200px;
+}
+
+
+.child:nth-child(4n+1) {
+  background: #1B3C68;
+}
+
+.child:nth-child(4n+2) {
+  background: #0074E4;
+}
+
+.child:nth-child(4n+3) {
+  background: #00B8C0;
+}
+
+.child:nth-child(4n+4) {
+  background: #E9FFB2;
+}
